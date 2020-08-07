@@ -1,0 +1,10 @@
+.container {
+	width: 100%;
+}
+.wrapper {
+	width: 50%;
+	margin: 5rem auto;
+}
+.bold {
+	font-weight: bold;
+}
