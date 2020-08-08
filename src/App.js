@@ -13,7 +13,7 @@ function App() {
 	useEffect(() => {
 		const fetch = async () => {
 			const response = await axios.get(
-				`http://localhost:5000/battle-api/query?q=${inputText}`
+				`https://careerninja-assignment-backend.herokuapp.com/battle-api/query?q=${inputText}`
 			);
 			setSuggestions(response.data.data);
 		};
